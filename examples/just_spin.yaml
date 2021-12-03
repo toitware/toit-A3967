@@ -1,0 +1,5 @@
+name: "Just Spin"
+entrypoint: "just_spin.toit"
+triggers:
+  on_boot: true
+  on_install: true

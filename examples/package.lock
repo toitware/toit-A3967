@@ -1,0 +1,5 @@
+prefixes:
+  a3967: ..
+packages:
+  ..:
+    path: ..
