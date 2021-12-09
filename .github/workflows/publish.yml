@@ -14,5 +14,5 @@ jobs:
       - name: Publish
         uses: toitlang/pkg-publish@v0.1.3
         with:
-          tag: v1.0.6
-          repository: toitware/toit-A3967
+          tag: ${{ github.ref_name }}
+          repository: ${{ github.repository }}
