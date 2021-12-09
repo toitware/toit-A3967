@@ -12,7 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Publish
-        uses: toitlang/pkg-publish@v0.1.11
-        with:
-          tag: ${{ github.ref_name }}
-          repository: ${{ github.repository }}
+        uses: toitlang/pkg-publish@v0.1.12
