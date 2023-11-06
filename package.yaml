@@ -1,1 +1,2 @@
-# Toit Package File.
+name: a3967
+description: Driver for the A3967 stepper motor driver.
